@@ -7,7 +7,8 @@ let people = [
 ];
 
 let simplifier = function(person){
-	return person.name;
+	return  person.birthDate;
 };
 
 console.log(people.map(simplifier));
+

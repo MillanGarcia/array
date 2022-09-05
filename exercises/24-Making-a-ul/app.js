@@ -10,10 +10,13 @@ let allColors = [
 
 function generateLI(color){
 	// your code here
+	colorsexy="<li>"+color.label+"</li>";
+	return colorsexy;
 }
 
 function filterColors(color){
 	// your code here
+	return color.sexy===true;
 }
 
 function generateHTMLFromArray(array){
